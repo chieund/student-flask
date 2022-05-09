@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List Student</title>
+    <style>
+        .content {
+            width: 500px;
+            margin: 0 auto;
+        }
+        .row {
+            margin-bottom: 10px;
+            
+        }
+        .row label {
+            width: 100px;
+            float: left;
+        }
+        .row input {
+            padding: 5px 15px;
+            border: 1px solid #ccc;
+        }
+        .btn-submit {
+            border: 1px solid #ccc;
+            background-color: green;
+            width: 200px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Add student</h1>
+        <form action="/add" method="post">
+            <div class="row">
+                <label>ID</label>
+                <input type="text" name="id">
+            </div>
+            <div class="row">
+                <label>Name</label>
+                <input type="text" name="name">
+            </div>
+            <div class="row">
+                <label>Code</label>
+                <input type="text" name="code">
+            </div>
+            <div class="row">
+                <label>Class</label>
+                <input type="text" name="classes">
+            </div>
+            <div class="row">
+                <input type="submit" value="Add Student" class="btn-submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

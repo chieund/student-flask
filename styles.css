@@ -1,0 +1,19 @@
+h2 {
+    color: blue;
+    font-size: 40px;
+}
+
+.content {
+    border: 1px solid red;
+}
+
+.col-1 {
+    /* float: left; */
+    width: 20%;
+    border: 1px solid burlywood;
+}
+.col-2 {
+    /* float: left; */
+    width: 50%;
+    border: 1px solid brown;
+}
